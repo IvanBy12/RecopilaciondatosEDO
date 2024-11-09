@@ -3,9 +3,10 @@ import matplotlib.pyplot as plt
 from scipy.integrate import odeint
 
 
-alpha, beta, gamma = 0.02, 0.01, 0.03
-delta, epsilon, zeta = 0.015, 0.02, 0.025
-A0, U0 = 0.5, 0.3  
+alpha, beta, gamma = 0.03, 0.02, 0.02   
+delta, epsilon, zeta = 0.02, 0.03, 0.015 
+A0, U0 = 0.6, 0.4 
+
 
 def modelo(variables, t):
     A, U = variables
